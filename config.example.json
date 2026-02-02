@@ -1,0 +1,27 @@
+{
+  "volume": 0.8,
+  "mute": false,
+  "sleep_time": "22:30",
+  "wake_time": "07:30",
+  "position": {
+    "x": 100,
+    "y": 800
+  },
+  "language": "zh-CN",
+  "idle_interval_min": 900,
+  "idle_interval_max": 1800,
+  "error_rate": 0.05,
+  "correction_delay_ms": 1500,
+  "scale": 0.5,
+  "flower_form": 1,
+  "hide_on_fullscreen": false,
+  "weather_city": "北京",
+  "weather_api": "wttr.in",
+  "caiyun_api_key": "",
+  "time_morning": "08:00",
+  "time_noon": "12:00",
+  "time_sunset": "18:00",
+  "time_night": "22:00",
+  "cpu_monitor_enabled": true,
+  "cpu_monitor_mode": "usage"
+}

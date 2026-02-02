@@ -1,0 +1,414 @@
+{
+  "category": "System",
+  "description": "System 类型语音",
+  "entries": [
+    {
+      "id": "startup_021",
+      "filename": "021.wav",
+      "text": "欢迎您",
+      "trigger": "on_start",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "startup_022",
+      "filename": "022.wav",
+      "text": "欢迎回来",
+      "trigger": "on_start",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "exit_024",
+      "filename": "024.wav",
+      "text": "再见",
+      "trigger": "on_exit",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "exit_025",
+      "filename": "025.wav",
+      "text": "再见啦",
+      "trigger": "on_exit",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "exit_044",
+      "filename": "044.wav",
+      "text": "拜拜~",
+      "trigger": "on_exit",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "mute-1_069",
+      "filename": "069.wav",
+      "text": "诶~？",
+      "trigger": "mute_on",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "mute-2_070",
+      "filename": "070.wav",
+      "text": "我很吵吗？",
+      "trigger": "mute_on",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "exit_073",
+      "filename": "073.wav",
+      "text": "再见！",
+      "trigger": "on_exit",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "weathergood_097",
+      "filename": "097.wav",
+      "text": "天气真好",
+      "trigger": "weather_sunny",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "cputemplow_098",
+      "filename": "098.wav",
+      "text": "好舒服啊",
+      "trigger": "cpu_temp<35",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "cputemphigh_103",
+      "filename": "103.wav",
+      "text": "我也想喝水！",
+      "trigger": "cpu_temp>65",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "beforenight_154",
+      "filename": "154.wav",
+      "text": "夕阳好美",
+      "trigger": "time_sunset",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "night_157",
+      "filename": "157.wav",
+      "text": "差不多该睡了……",
+      "trigger": "time_night",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "exit_203",
+      "filename": "203.wav",
+      "text": "拜~拜~",
+      "trigger": "on_exit",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "weathergood_234",
+      "filename": "234.wav",
+      "text": "清爽的气味~",
+      "trigger": "weather_sunny",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "weathergood_235",
+      "filename": "235.wav",
+      "text": "总觉得空气变得清新了",
+      "trigger": "weather_sunny",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "weathergood_255",
+      "filename": "255.wav",
+      "text": "好棒的风",
+      "trigger": "weather_sunny",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "rain_267",
+      "filename": "267.wav",
+      "text": "下雨好舒服",
+      "trigger": "weather_rain",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "rain_268",
+      "filename": "268.wav",
+      "text": "渗到根部了~",
+      "trigger": "weather_rain",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "cputemplow_302",
+      "filename": "302.wav",
+      "text": "今天也好冷啊",
+      "trigger": "cpu_temp<35",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "exit_309",
+      "filename": "309.wav",
+      "text": "下次再见吧",
+      "trigger": "on_exit",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "weathergood_315",
+      "filename": "315.wav",
+      "text": "好舒适~",
+      "trigger": "weather_sunny",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "exit_353",
+      "filename": "353.wav",
+      "text": "再见咯！",
+      "trigger": "on_exit",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "night_367",
+      "filename": "367.wav",
+      "text": "烟火好美啊",
+      "trigger": "time_night",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "noon_379",
+      "filename": "379.wav",
+      "text": "嗯！高汤真美味！",
+      "trigger": "time_noon",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "night_382",
+      "filename": "382.wav",
+      "text": "看到流星了！",
+      "trigger": "time_night",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "cputemphigh_388",
+      "filename": "388.wav",
+      "text": "喉咙，好渴啊——",
+      "trigger": "cpu_temp>65",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "rain_389",
+      "filename": "389.wav",
+      "text": "渗到根部了~~~",
+      "trigger": "weather_rain",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "cputemphigh_392",
+      "filename": "392.wav",
+      "text": "好热啊！",
+      "trigger": "cpu_temp>65",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "weathergood_394",
+      "filename": "394.wav",
+      "text": "好舒服的风",
+      "trigger": "weather_sunny",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "startup_415",
+      "filename": "415.wav",
+      "text": "欢迎您",
+      "trigger": "on_start",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "night_427",
+      "filename": "427.wav",
+      "text": "今天是满月啊",
+      "trigger": "time_night",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "startup_428",
+      "filename": "428.wav",
+      "text": "总觉得有事要发生",
+      "trigger": "on_start",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "night_454",
+      "filename": "454.wav",
+      "text": "我刚才……是在做梦吗？",
+      "trigger": "time_night",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "exit_483",
+      "filename": "483.wav",
+      "text": "不要丢下我~！",
+      "trigger": "on_exit",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "cputemphigh_529",
+      "filename": "529.wav",
+      "text": "好热",
+      "trigger": "cpu_temp>65",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "cputemphigh_530",
+      "filename": "530.wav",
+      "text": "太热了",
+      "trigger": "cpu_temp>65",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "cputemplow_531",
+      "filename": "531.wav",
+      "text": "活过来了！",
+      "trigger": "cpu_temp<35",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "weathergood_532",
+      "filename": "532.wav",
+      "text": "好舒畅~！",
+      "trigger": "weather_sunny",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "weathergood_534",
+      "filename": "534.wav",
+      "text": "刚才感觉真舒畅！",
+      "trigger": "weather_sunny",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "cputemphigh_535",
+      "filename": "535.wav",
+      "text": "能不能下一场大雨啊~",
+      "trigger": "cpu_temp>65",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "unmute_538",
+      "filename": "538.wav",
+      "text": "终于可以说话了",
+      "trigger": "mute_off",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "cputemplow_541",
+      "filename": "541.wav",
+      "text": "谢谢你救了我",
+      "trigger": "cpu_temp<35",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "night_644",
+      "filename": "644.wav",
+      "text": "睁着眼睛睡着了",
+      "trigger": "time_night",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "morning_645",
+      "filename": "645.wav",
+      "text": "我现在完全清醒了",
+      "trigger": "time_morning",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "cputemphigh_647",
+      "filename": "647.wav",
+      "text": "不觉得有点太热了吗？",
+      "trigger": "cpu_temp>65",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "cputemphigh_648",
+      "filename": "648.wav",
+      "text": "这样还是很热~",
+      "trigger": "cpu_temp>65",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "cputemplow_650",
+      "filename": "650.wav",
+      "text": "变凉快了",
+      "trigger": "cpu_temp<35",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "cputemphigh_676",
+      "filename": "676.wav",
+      "text": "好~热~啊~",
+      "trigger": "cpu_temp>65",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "cputemplow_677",
+      "filename": "677.wav",
+      "text": "啊~~~活过来了！",
+      "trigger": "cpu_temp<35",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "startup_699",
+      "filename": "699.wav",
+      "text": "欢迎",
+      "trigger": "on_start",
+      "weight": 10,
+      "duration_ms": 3000
+    }
+  ]
+}

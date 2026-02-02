@@ -1,0 +1,446 @@
+{
+  "category": "Idle",
+  "description": "Idle 类型语音",
+  "entries": [
+    {
+      "id": "random_033",
+      "filename": "033.wav",
+      "text": "辛苦啦",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_041",
+      "filename": "041.wav",
+      "text": "加油！",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_055",
+      "filename": "055.wav",
+      "text": "加油啊！",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_062",
+      "filename": "062.wav",
+      "text": "嘿嘿",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_099",
+      "filename": "099.wav",
+      "text": "这是什么~",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_100",
+      "filename": "100.wav",
+      "text": "欸~那是什么？",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_101",
+      "filename": "101.wav",
+      "text": "这天气好适合午睡！",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_132",
+      "filename": "132.wav",
+      "text": "你在做什么？",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_146",
+      "filename": "146.wav",
+      "text": "好无聊",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_151",
+      "filename": "151.wav",
+      "text": "好久没聊天了",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_152",
+      "filename": "152.wav",
+      "text": "嘿嘿~",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_155",
+      "filename": "155.wav",
+      "text": "今天过得如何？",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_156",
+      "filename": "156.wav",
+      "text": "啊——~~~——（伸懒腰）",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_162",
+      "filename": "162.wav",
+      "text": "活着就会遇到各种事情了",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_164",
+      "filename": "164.wav",
+      "text": "我也喜欢平平无奇的一天",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_171",
+      "filename": "171.wav",
+      "text": "好~安~心~啊~",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_201",
+      "filename": "201.wav",
+      "text": "好开心！",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_205",
+      "filename": "205.wav",
+      "text": "海水是什么味道？",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_217",
+      "filename": "217.wav",
+      "text": "这是什么~？",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_236",
+      "filename": "236.wav",
+      "text": "过得好吗？",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_248",
+      "filename": "248.wav",
+      "text": "慢慢走吧！",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_281",
+      "filename": "281.wav",
+      "text": "你是什么口味的呢？",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_307",
+      "filename": "307.wav",
+      "text": "状态不错哦！",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_312",
+      "filename": "312.wav",
+      "text": "你也真辛苦啊",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_345",
+      "filename": "345.wav",
+      "text": "你也真辛苦啊",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_347",
+      "filename": "347.wav",
+      "text": "感觉好辛苦啊",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_371",
+      "filename": "371.wav",
+      "text": "凡事都要讲求时机哦~",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_372",
+      "filename": "372.wav",
+      "text": "我在看瀑布、疗愈心灵",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_376",
+      "filename": "376.wav",
+      "text": "辛苦啦！（齐声）",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_396",
+      "filename": "396.wav",
+      "text": "我说话是不是怪怪的？",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_404",
+      "filename": "404.wav",
+      "text": "加~油~",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_459",
+      "filename": "459.wav",
+      "text": "你今天吃了什么？",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_460",
+      "filename": "460.wav",
+      "text": "记得要吃蔬菜哦！",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_498",
+      "filename": "498.wav",
+      "text": "只有被选中的人，才能得到璀璨的光芒",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_501",
+      "filename": "501.wav",
+      "text": "继续走下去，前方会有什么呢？",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_508",
+      "filename": "508.wav",
+      "text": "我会为你的冒险加油",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_516",
+      "filename": "516.wav",
+      "text": "嗯——（/伸懒腰）",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_523",
+      "filename": "523.wav",
+      "text": "状态不错哦！",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_533",
+      "filename": "533.wav",
+      "text": "我会在这里继续努力",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_543",
+      "filename": "543.wav",
+      "text": "你是何方神圣？",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_557",
+      "filename": "557.wav",
+      "text": "祝你一路顺利！",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_578",
+      "filename": "578.wav",
+      "text": "你一定办得到！",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_609",
+      "filename": "609.wav",
+      "text": "我早就知道，你一定办得到",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_628",
+      "filename": "628.wav",
+      "text": "永！不！放！弃！",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_678",
+      "filename": "678.wav",
+      "text": "我在看家",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_679",
+      "filename": "679.wav",
+      "text": "有点寂寞",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_702",
+      "filename": "702.wav",
+      "text": "好开心哦~",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_703",
+      "filename": "703.wav",
+      "text": "好好享受吧",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_715",
+      "filename": "715.wav",
+      "text": "发呆真舒服啊",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_717",
+      "filename": "717.wav",
+      "text": "嗯啊——（/伸懒腰）",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_718",
+      "filename": "718.wav",
+      "text": "我有点困了",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_719",
+      "filename": "719.wav",
+      "text": "哎~休息一下好了",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_720",
+      "filename": "720.wav",
+      "text": "放轻松放轻松",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_721",
+      "filename": "721.wav",
+      "text": "阿秋~",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "random_722",
+      "filename": "722.wav",
+      "text": "雄蕊痒痒的",
+      "trigger": "random",
+      "weight": 10,
+      "duration_ms": 3000
+    }
+  ]
+}

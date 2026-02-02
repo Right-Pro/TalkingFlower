@@ -1,0 +1,70 @@
+{
+  "category": "DoubleClick",
+  "description": "DoubleClick 类型语音",
+  "entries": [
+    {
+      "id": "double_214",
+      "filename": "214.wav",
+      "text": "真是的……",
+      "trigger": "double_click",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "double_215",
+      "filename": "215.wav",
+      "text": "我睡得正熟呢……",
+      "trigger": "double_click",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "double_262",
+      "filename": "262.wav",
+      "text": "这种刺激，感觉会上瘾呐！",
+      "trigger": "double_click",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "double_296",
+      "filename": "296.wav",
+      "text": "等……等一下！",
+      "trigger": "double_click",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "double_480",
+      "filename": "480.wav",
+      "text": "留在这里陪我好不好？",
+      "trigger": "double_click",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "double_670",
+      "filename": "670.wav",
+      "text": "拜托你了啊",
+      "trigger": "double_click",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "double_685",
+      "filename": "685.wav",
+      "text": "对不起老是麻烦你",
+      "trigger": "double_click",
+      "weight": 10,
+      "duration_ms": 3000
+    },
+    {
+      "id": "double_687",
+      "filename": "687.wav",
+      "text": "谢谢你",
+      "trigger": "double_click",
+      "weight": 10,
+      "duration_ms": 3000
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "category": "DoubleClick",
+  "description": "双击/三连击彩蛋",
+  "entries": [
+    {
+      "id": "double_01",
+      "filename": "double_01.wav",
+      "text": "哇！你怎么这么快！",
+      "weight": 10,
+      "animation": "React",
+      "duration_ms": 2000
+    },
+    {
+      "id": "double_02",
+      "filename": "double_02.wav",
+      "text": "停停停！我头晕了！",
+      "weight": 10,
+      "animation": "React",
+      "duration_ms": 2200
+    },
+    {
+      "id": "double_03",
+      "filename": "double_03.wav",
+      "text": "双...双击？你想干嘛？",
+      "weight": 8,
+      "animation": "Talking",
+      "duration_ms": 2100
+    },
+    {
+      "id": "triple_01",
+      "filename": "triple_01.wav",
+      "text": "三连击！？你是练过的吧！",
+      "weight": 5,
+      "animation": "React",
+      "duration_ms": 2500
+    },
+    {
+      "id": "triple_02",
+      "filename": "triple_02.wav",
+      "text": "饶命啊！花命也是命！",
+      "weight": 5,
+      "animation": "React",
+      "duration_ms": 2400
+    }
+  ]
+}

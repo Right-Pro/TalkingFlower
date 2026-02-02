@@ -1,0 +1,54 @@
+{
+  "category": "Click",
+  "description": "单击交互台词",
+  "entries": [
+    {
+      "id": "click_01",
+      "filename": "click_01.wav",
+      "text": "干嘛戳我！",
+      "weight": 10,
+      "animation": "Talking",
+      "duration_ms": 1500
+    },
+    {
+      "id": "click_02",
+      "filename": "click_02.wav",
+      "text": "哎呀，好痒~",
+      "weight": 10,
+      "animation": "Talking",
+      "duration_ms": 1600
+    },
+    {
+      "id": "click_03",
+      "filename": "click_03.wav",
+      "text": "有事吗？",
+      "weight": 8,
+      "animation": "Talking",
+      "duration_ms": 1200
+    },
+    {
+      "id": "click_04",
+      "filename": "click_04.wav",
+      "text": "我在忙着发呆呢！",
+      "weight": 8,
+      "animation": "Talking",
+      "duration_ms": 1800
+    },
+    {
+      "id": "click_05",
+      "filename": "click_05.wav",
+      "text": "轻点轻点，花瓣都要掉了！",
+      "weight": 7,
+      "animation": "Talking",
+      "duration_ms": 2000
+    },
+    {
+      "id": "click_06",
+      "filename": "click_06.wav",
+      "text": "嘿嘿，是不是想我了？",
+      "weight": 6,
+      "animation": "Talking",
+      "duration_ms": 1900
+    }
+  ]
+}

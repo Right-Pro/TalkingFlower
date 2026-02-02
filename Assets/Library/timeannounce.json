@@ -1,0 +1,656 @@
+{
+  "category": "TimeAnnounce",
+  "description": "整点报时语音",
+  "error_rate": 0.05,
+  "correction_delay_ms": 1500,
+  "entries": [
+    {
+      "id": "time_00_correct",
+      "filename": "Correct/00.wav",
+      "text": "零点啦，该睡觉啦~",
+      "hour": 0,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 3000
+    },
+    {
+      "id": "time_00_error_01",
+      "filename": "Error/00_error_01.wav",
+      "text": "二十四点...",
+      "hour": 0,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_00_error_02",
+      "filename": "Error/00_error_02.wav",
+      "text": "啊不对！零点！零点！",
+      "hour": 0,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2500
+    },
+    {
+      "id": "time_01_correct",
+      "filename": "Correct/01.wav",
+      "text": "凌晨一点了",
+      "hour": 1,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_01_error_01",
+      "filename": "Error/01_error_01.wav",
+      "text": "十三点...",
+      "hour": 1,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_01_error_02",
+      "filename": "Error/01_error_02.wav",
+      "text": "啊不对！凌晨一点！",
+      "hour": 1,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_02_correct",
+      "filename": "Correct/02.wav",
+      "text": "凌晨两点了",
+      "hour": 2,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_02_error_01",
+      "filename": "Error/02_error_01.wav",
+      "text": "十四点...",
+      "hour": 2,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_02_error_02",
+      "filename": "Error/02_error_02.wav",
+      "text": "啊不对！凌晨两点！",
+      "hour": 2,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_03_correct",
+      "filename": "Correct/03.wav",
+      "text": "凌晨三点了",
+      "hour": 3,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_03_error_01",
+      "filename": "Error/03_error_01.wav",
+      "text": "十五点...",
+      "hour": 3,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_03_error_02",
+      "filename": "Error/03_error_02.wav",
+      "text": "啊不对！凌晨三点！",
+      "hour": 3,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_04_correct",
+      "filename": "Correct/04.wav",
+      "text": "凌晨四点了",
+      "hour": 4,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_04_error_01",
+      "filename": "Error/04_error_01.wav",
+      "text": "十六点...",
+      "hour": 4,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_04_error_02",
+      "filename": "Error/04_error_02.wav",
+      "text": "啊不对！凌晨四点！",
+      "hour": 4,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_05_correct",
+      "filename": "Correct/05.wav",
+      "text": "凌晨五点了，天快亮了",
+      "hour": 5,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2500
+    },
+    {
+      "id": "time_05_error_01",
+      "filename": "Error/05_error_01.wav",
+      "text": "十七点...",
+      "hour": 5,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_05_error_02",
+      "filename": "Error/05_error_02.wav",
+      "text": "啊不对！凌晨五点！",
+      "hour": 5,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_06_correct",
+      "filename": "Correct/06.wav",
+      "text": "早上六点，该起床啦！",
+      "hour": 6,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2500
+    },
+    {
+      "id": "time_06_error_01",
+      "filename": "Error/06_error_01.wav",
+      "text": "十八点...",
+      "hour": 6,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_06_error_02",
+      "filename": "Error/06_error_02.wav",
+      "text": "啊不对！早上六点！",
+      "hour": 6,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_07_correct",
+      "filename": "Correct/07.wav",
+      "text": "早上七点了",
+      "hour": 7,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_07_error_01",
+      "filename": "Error/07_error_01.wav",
+      "text": "十九点...",
+      "hour": 7,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_07_error_02",
+      "filename": "Error/07_error_02.wav",
+      "text": "啊不对！早上七点！",
+      "hour": 7,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_08_correct",
+      "filename": "Correct/08.wav",
+      "text": "早上八点了，开始新的一天吧~",
+      "hour": 8,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 3000
+    },
+    {
+      "id": "time_08_error_01",
+      "filename": "Error/08_error_01.wav",
+      "text": "二十点...",
+      "hour": 8,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_08_error_02",
+      "filename": "Error/08_error_02.wav",
+      "text": "啊不对！早上八点！",
+      "hour": 8,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_09_correct",
+      "filename": "Correct/09.wav",
+      "text": "上午九点了",
+      "hour": 9,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_09_error_01",
+      "filename": "Error/09_error_01.wav",
+      "text": "二十一点...",
+      "hour": 9,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_09_error_02",
+      "filename": "Error/09_error_02.wav",
+      "text": "啊不对！上午九点！",
+      "hour": 9,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_10_correct",
+      "filename": "Correct/10.wav",
+      "text": "上午十点了",
+      "hour": 10,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_10_error_01",
+      "filename": "Error/10_error_01.wav",
+      "text": "二十二点...",
+      "hour": 10,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_10_error_02",
+      "filename": "Error/10_error_02.wav",
+      "text": "啊不对！上午十点！",
+      "hour": 10,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_11_correct",
+      "filename": "Correct/11.wav",
+      "text": "上午十一点了，快要吃饭啦",
+      "hour": 11,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2500
+    },
+    {
+      "id": "time_11_error_01",
+      "filename": "Error/11_error_01.wav",
+      "text": "二十三点...",
+      "hour": 11,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_11_error_02",
+      "filename": "Error/11_error_02.wav",
+      "text": "啊不对！上午十一点！",
+      "hour": 11,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_12_correct",
+      "filename": "Correct/12.wav",
+      "text": "中午十二点，午饭时间到！",
+      "hour": 12,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 3000
+    },
+    {
+      "id": "time_12_error_01",
+      "filename": "Error/12_error_01.wav",
+      "text": "零点...",
+      "hour": 12,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_12_error_02",
+      "filename": "Error/12_error_02.wav",
+      "text": "啊不对！中午十二点！",
+      "hour": 12,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_13_correct",
+      "filename": "Correct/13.wav",
+      "text": "下午一点了",
+      "hour": 13,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_13_error_01",
+      "filename": "Error/13_error_01.wav",
+      "text": "一点...",
+      "hour": 13,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_13_error_02",
+      "filename": "Error/13_error_02.wav",
+      "text": "啊不对！下午一点！",
+      "hour": 13,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_14_correct",
+      "filename": "Correct/14.wav",
+      "text": "下午两点了",
+      "hour": 14,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_14_error_01",
+      "filename": "Error/14_error_01.wav",
+      "text": "两点...",
+      "hour": 14,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_14_error_02",
+      "filename": "Error/14_error_02.wav",
+      "text": "啊不对！下午两点！",
+      "hour": 14,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_15_correct",
+      "filename": "Correct/15.wav",
+      "text": "下午三点了，下午茶时间~",
+      "hour": 15,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2500
+    },
+    {
+      "id": "time_15_error_01",
+      "filename": "Error/15_error_01.wav",
+      "text": "三点...",
+      "hour": 15,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_15_error_02",
+      "filename": "Error/15_error_02.wav",
+      "text": "啊不对！下午三点！",
+      "hour": 15,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_16_correct",
+      "filename": "Correct/16.wav",
+      "text": "下午四点了",
+      "hour": 16,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_16_error_01",
+      "filename": "Error/16_error_01.wav",
+      "text": "四点...",
+      "hour": 16,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_16_error_02",
+      "filename": "Error/16_error_02.wav",
+      "text": "啊不对！下午四点！",
+      "hour": 16,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_17_correct",
+      "filename": "Correct/17.wav",
+      "text": "下午五点了，快要下班啦",
+      "hour": 17,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2500
+    },
+    {
+      "id": "time_17_error_01",
+      "filename": "Error/17_error_01.wav",
+      "text": "五点...",
+      "hour": 17,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_17_error_02",
+      "filename": "Error/17_error_02.wav",
+      "text": "啊不对！下午五点！",
+      "hour": 17,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_18_correct",
+      "filename": "Correct/18.wav",
+      "text": "晚上六点了，晚饭时间！",
+      "hour": 18,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2500
+    },
+    {
+      "id": "time_18_error_01",
+      "filename": "Error/18_error_01.wav",
+      "text": "六点...",
+      "hour": 18,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_18_error_02",
+      "filename": "Error/18_error_02.wav",
+      "text": "啊不对！晚上六点！",
+      "hour": 18,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_19_correct",
+      "filename": "Correct/19.wav",
+      "text": "晚上七点了",
+      "hour": 19,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_19_error_01",
+      "filename": "Error/19_error_01.wav",
+      "text": "七点...",
+      "hour": 19,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_19_error_02",
+      "filename": "Error/19_error_02.wav",
+      "text": "啊不对！晚上七点！",
+      "hour": 19,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_20_correct",
+      "filename": "Correct/20.wav",
+      "text": "晚上八点了",
+      "hour": 20,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_20_error_01",
+      "filename": "Error/20_error_01.wav",
+      "text": "八点...",
+      "hour": 20,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_20_error_02",
+      "filename": "Error/20_error_02.wav",
+      "text": "啊不对！晚上八点！",
+      "hour": 20,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_21_correct",
+      "filename": "Correct/21.wav",
+      "text": "晚上九点了，该准备休息啦",
+      "hour": 21,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2500
+    },
+    {
+      "id": "time_21_error_01",
+      "filename": "Error/21_error_01.wav",
+      "text": "九点...",
+      "hour": 21,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_21_error_02",
+      "filename": "Error/21_error_02.wav",
+      "text": "啊不对！晚上九点！",
+      "hour": 21,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_22_correct",
+      "filename": "Correct/22.wav",
+      "text": "晚上十点了",
+      "hour": 22,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_22_error_01",
+      "filename": "Error/22_error_01.wav",
+      "text": "十点...",
+      "hour": 22,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_22_error_02",
+      "filename": "Error/22_error_02.wav",
+      "text": "啊不对！晚上十点！",
+      "hour": 22,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    },
+    {
+      "id": "time_23_correct",
+      "filename": "Correct/23.wav",
+      "text": "晚上十一点了，该睡觉啦~",
+      "hour": 23,
+      "minute": 0,
+      "is_error": false,
+      "duration_ms": 2500
+    },
+    {
+      "id": "time_23_error_01",
+      "filename": "Error/23_error_01.wav",
+      "text": "十一点...",
+      "hour": 23,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 1500
+    },
+    {
+      "id": "time_23_error_02",
+      "filename": "Error/23_error_02.wav",
+      "text": "啊不对！晚上十一点！",
+      "hour": 23,
+      "minute": 0,
+      "is_error": true,
+      "duration_ms": 2000
+    }
+  ]
+}
