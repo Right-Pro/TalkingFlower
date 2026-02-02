@@ -30,8 +30,7 @@ pip install -r requirements.txt
 ### 准备音频文件
 
 1. 在 `Assets/Audio/Index/` 目录下放置音频文件（.wav 格式）
-2. 使用 `Texts.xlsx` 配置语音文本和触发条件
-3. 运行程序自动生成 JSON 配置文件
+2. 参考 `Assets/Library/` 下的 JSON 文件配置语音触发条件
 
 ### 配置文件
 
