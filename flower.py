@@ -155,14 +155,40 @@ class WeatherPopupWidget(QWidget):
         self.city_label.setText(f"📍 {city}")
         self.time_label.setText(datetime.now().strftime("%Y年%m月%d日 %H:%M"))
         
+        # 天气状况映射（英文->中文），优先级：降雪>降雨>雾>沙尘>雾霾>大风>阴>多云>晴
+        weather_map = {
+            # 降雪 (最高优先级)
+            'LIGHT_SNOW': '小雪', 'MODERATE_SNOW': '中雪', 'HEAVY_SNOW': '大雪', 'STORM_SNOW': '暴雪',
+            # 降雨
+            'LIGHT_RAIN': '小雨', 'MODERATE_RAIN': '中雨', 'HEAVY_RAIN': '大雨', 'STORM_RAIN': '暴雨',
+            # 雾
+            'FOG': '雾',
+            # 沙尘
+            'SAND': '沙尘', 'DUST': '浮尘',
+            # 雾霾
+            'HEAVY_HAZE': '重度雾霾', 'MODERATE_HAZE': '中度雾霾', 'LIGHT_HAZE': '轻度雾霾',
+            # 大风
+            'WIND': '大风',
+            # 阴
+            'CLOUDY': '阴', 'OVERCAST': '阴',
+            # 多云
+            'PARTLY_CLOUDY_DAY': '多云', 'PARTLY_CLOUDY_NIGHT': '多云',
+            # 晴 (最低优先级)
+            'CLEAR_DAY': '晴', 'CLEAR_NIGHT': '晴',
+        }
+        
+        # 映射天气描述为中文
+        weather_zh = weather_map.get(skycon, weather)
+        
         # 天气图标
         icon_map = {
             'CLEAR': '☀', 'CLEAR_DAY': '☀', 'CLEAR_NIGHT': '🌙',
             'PARTLY_CLOUDY': '⛅', 'PARTLY_CLOUDY_DAY': '⛅', 'PARTLY_CLOUDY_NIGHT': '☁',
             'CLOUDY': '☁', 'OVERCAST': '☁',
+            'HAZE': '🌫', 'LIGHT_HAZE': '🌫', 'MODERATE_HAZE': '🌫', 'HEAVY_HAZE': '😷',
             'RAIN': '🌧', 'LIGHT_RAIN': '🌦', 'MODERATE_RAIN': '🌧', 'HEAVY_RAIN': '⛈',
             'SNOW': '❄', 'LIGHT_SNOW': '🌨', 'MODERATE_SNOW': '❄', 'HEAVY_SNOW': '❄',
-            'FOG': '🌫', 'HAZE': '🌫', 'DUST': '😷', 'SAND': '😷',
+            'FOG': '🌫', 'DUST': '😷', 'SAND': '😷',
             'WIND': '💨',
         }
         icon = '☀'
@@ -172,7 +198,7 @@ class WeatherPopupWidget(QWidget):
                 break
         self.weather_icon_label.setText(icon)
         
-        self.weather_desc_label.setText(weather)
+        self.weather_desc_label.setText(weather_zh)
         self.temp_label.setText(f"{temp}°C")
         self.feels_label.setText(f"{feels}°C")
         self.humidity_label.setText(f"{humidity}%")
@@ -191,6 +217,48 @@ class WeatherPopupWidget(QWidget):
                 self.aqi_label.setStyleSheet("color: #e74c3c;")  # 红
         except:
             self.aqi_label.setStyleSheet("color: #7f8c8d;")
+        
+        # 显示生活指数（彩云天气）
+        life_index = data.get('life_index', {})
+        if life_index:
+            # 构建生活指数文本
+            index_texts = []
+            
+            # 穿衣指数
+            dressing = life_index.get('dressing', {})
+            if dressing:
+                index_texts.append(f"👔 穿衣: {dressing.get('desc', '-')}")
+            
+            # 紫外线指数
+            uv = life_index.get('ultraviolet', {})
+            if uv:
+                index_texts.append(f"☀ 紫外线: {uv.get('desc', '-')}")
+            
+            # 舒适度指数
+            comfort = life_index.get('comfort', {})
+            if comfort:
+                index_texts.append(f"😊 舒适: {comfort.get('desc', '-')}")
+            
+            # 感冒指数
+            cold = life_index.get('coldRisk', {})
+            if cold:
+                index_texts.append(f"🤧 感冒: {cold.get('desc', '-')}")
+            
+            # 洗车指数
+            car = life_index.get('carWashing', {})
+            if car:
+                index_texts.append(f"🚗 洗车: {car.get('desc', '-')}")
+            
+            if index_texts:
+                # 如果有生活指数，更新底部提示
+                self.tip_label.setText("  |  ".join(index_texts))
+                self.tip_label.setStyleSheet("color: #7f8c8d; font-size: 10px;")
+            else:
+                self.tip_label.setText("每半小时自动更新")
+                self.tip_label.setStyleSheet("color: #95a5a6; font-style: italic;")
+        else:
+            self.tip_label.setText("每半小时自动更新")
+            self.tip_label.setStyleSheet("color: #95a5a6; font-style: italic;")
     
     def show_popup(self, x: int, y: int, duration_ms: int = 10000):
         """显示天气弹窗"""
